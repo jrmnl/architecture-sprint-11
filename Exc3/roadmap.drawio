@@ -1,0 +1,103 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
+  <diagram name="Page-1" id="4Il-4CRXyNyuU-4BCOGJ">
+    <mxGraphModel dx="954" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6bCKN2paZI4ugrq-OCFl-1" value="Q1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6bCKN2paZI4ugrq-OCFl-2" value="Q2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6bCKN2paZI4ugrq-OCFl-3" value="Q3" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6bCKN2paZI4ugrq-OCFl-4" value="Q4" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6bCKN2paZI4ugrq-OCFl-5" value="Шаблон развертования ETL" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="80" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6bCKN2paZI4ugrq-OCFl-7" value="Команда платформы данных" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6bCKN2paZI4ugrq-OCFl-8" value="Команда ИИ-сервисов" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6bCKN2paZI4ugrq-OCFl-9" value="Команда финтеха" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6bCKN2paZI4ugrq-OCFl-10" value="Команда клиники" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6bCKN2paZI4ugrq-OCFl-11" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Квартал 1&lt;/h1&gt;&lt;p&gt;- Задеплоен&amp;nbsp;Apache Superset и подключен DWH&lt;/p&gt;&lt;p&gt;- Задеплоен&amp;nbsp;DataHub&lt;/p&gt;&lt;p&gt;- Создан шаблон для поднятия Airflow и&lt;/p&gt;&lt;p&gt;- Данные финтеха мигрированы в базы финтех компании, DWH все еще обновляется с помощью&amp;nbsp;Apache Camel&amp;nbsp;&lt;/p&gt;&lt;p&gt;- Данные ии-сервисов мигрированы в базы ИИ компании, DWH все еще обновляется с помощью&amp;nbsp;Apache Camel&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;p&gt;- Данные МИС мигрированы в базы компанииклиники , DWH все еще обновляется с помощью&amp;nbsp;Apache Camel&amp;nbsp;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry y="440" width="200" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="6bCKN2paZI4ugrq-OCFl-12" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Квартал 2&lt;/h1&gt;&lt;p&gt;- Аналитики обучены пользоваться&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Apache Superset&lt;/span&gt;&lt;/p&gt;&lt;p&gt;- Созданы требования к датасетам&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;-&amp;nbsp; DWH обновляется только с помощью&amp;nbsp;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Airflow и&amp;nbsp;Apache NiFi из различных компаний&lt;/span&gt;&lt;/p&gt;&lt;p&gt;-&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Apache Camel удален&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="210" y="440" width="210" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="6bCKN2paZI4ugrq-OCFl-13" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Квартал 3&lt;/h1&gt;&lt;p&gt;- Команды создали дата-продукты и подключили их к&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Superset&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;и&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DataHub&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="430" y="440" width="200" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="6bCKN2paZI4ugrq-OCFl-14" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Квартал 4&lt;/h1&gt;&lt;p&gt;- Аналитики пользуются только&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Apache Superset&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;и&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DataHub&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Microsoft SQL и Power BI удалены&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="640" y="440" width="200" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="6bCKN2paZI4ugrq-OCFl-15" value="Деплой SuperSet&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%20%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20ETL%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22120%22%20y%3D%2280%22%20width%3D%22120%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="110" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6bCKN2paZI4ugrq-OCFl-16" value="Деплой DataHub&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%20%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20ETL%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22120%22%20y%3D%2280%22%20width%3D%22120%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="130" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6bCKN2paZI4ugrq-OCFl-17" value="Обучение аналитиков" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6bCKN2paZI4ugrq-OCFl-18" value="Составление требований к Dataset&#39;ам" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6bCKN2paZI4ugrq-OCFl-19" value="Миграция данных к себе" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6bCKN2paZI4ugrq-OCFl-20" value="Миграция данных к себе" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6bCKN2paZI4ugrq-OCFl-21" value="Миграция данных к себе" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6bCKN2paZI4ugrq-OCFl-22" value="Переключение на Airflow и&amp;nbsp;Apache NiFi" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6bCKN2paZI4ugrq-OCFl-23" value="Переключение на Airflow и&amp;nbsp;Apache NiFi" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6bCKN2paZI4ugrq-OCFl-24" value="Переключение на Airflow и&amp;nbsp;Apache NiFi" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6bCKN2paZI4ugrq-OCFl-25" value="Создание дата-продуктов" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="200" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6bCKN2paZI4ugrq-OCFl-26" value="Создание дата-продуктов" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="280" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6bCKN2paZI4ugrq-OCFl-27" value="Создание дата-продуктов" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="360" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6bCKN2paZI4ugrq-OCFl-28" value="Тестирование и переключение" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="80" width="120" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="lbuwxxAohysbUwufwrH--1" value="В первом квартале мы готовимся к миграции на новые технологии и расхождение по доменам. Этот этап нам нужен, чтобы команды начали делать свои дата-продукты, а аналитики изучать и предоставлять требовании к будущим витринам" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="10" y="810" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="lbuwxxAohysbUwufwrH--2" value="Во втором квартале мы обучили команды пользоваться целевыми ETL платформами и они начали создавать дата-каталоги&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="210" y="810" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="lbuwxxAohysbUwufwrH--3" value="В третьем квартале мы создали все необходимое, чтобы аналитики начали переключаться" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="430" y="810" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="lbuwxxAohysbUwufwrH--4" value="В четвертом квартале аналитики тестируют, переключаются, сотавляют фидбек, команды полируют свои решения" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="640" y="810" width="180" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

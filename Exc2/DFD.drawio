@@ -1,0 +1,127 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
+  <diagram name="Page-1" id="9SVxazzsV-fwtRlGehW2">
+    <mxGraphModel dx="1735" dy="1195" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wfPp5SKs78fvaveSrZaC-2" value="Витрины Клиники" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="370" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wfPp5SKs78fvaveSrZaC-5" value="Витрины &lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;Банка&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
+          <mxGeometry x="195" y="370" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wfPp5SKs78fvaveSrZaC-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wfPp5SKs78fvaveSrZaC-7" target="wfPp5SKs78fvaveSrZaC-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="555" y="310" />
+              <mxPoint x="265" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfPp5SKs78fvaveSrZaC-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wfPp5SKs78fvaveSrZaC-7" target="wfPp5SKs78fvaveSrZaC-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="555" y="310" />
+              <mxPoint x="465" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfPp5SKs78fvaveSrZaC-24" value="просмотр данных" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wfPp5SKs78fvaveSrZaC-23">
+          <mxGeometry x="0.2176" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfPp5SKs78fvaveSrZaC-7" value="формирование отчетов" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="515" y="210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wfPp5SKs78fvaveSrZaC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wfPp5SKs78fvaveSrZaC-8" target="wfPp5SKs78fvaveSrZaC-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wfPp5SKs78fvaveSrZaC-25" value="медицинские данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wfPp5SKs78fvaveSrZaC-16">
+          <mxGeometry x="-0.1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfPp5SKs78fvaveSrZaC-8" value="МИС" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wfPp5SKs78fvaveSrZaC-9" value="ИИ-сервисы" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="715" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wfPp5SKs78fvaveSrZaC-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wfPp5SKs78fvaveSrZaC-10" target="wfPp5SKs78fvaveSrZaC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wfPp5SKs78fvaveSrZaC-20" value="создание витрины" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wfPp5SKs78fvaveSrZaC-19">
+          <mxGeometry x="0.075" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfPp5SKs78fvaveSrZaC-10" value="фин-тех сервисы" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wfPp5SKs78fvaveSrZaC-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wfPp5SKs78fvaveSrZaC-13" target="wfPp5SKs78fvaveSrZaC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wfPp5SKs78fvaveSrZaC-18" value="данные инвентаризации,&lt;div&gt;персонала&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wfPp5SKs78fvaveSrZaC-17">
+          <mxGeometry x="0.0474" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfPp5SKs78fvaveSrZaC-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wfPp5SKs78fvaveSrZaC-13" target="wfPp5SKs78fvaveSrZaC-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wfPp5SKs78fvaveSrZaC-31" value="данные о врачах" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wfPp5SKs78fvaveSrZaC-30">
+          <mxGeometry x="-0.0333" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfPp5SKs78fvaveSrZaC-13" value="Управление клинкой" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wfPp5SKs78fvaveSrZaC-26" value="Витрины Бухглатерии&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;Банка&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
+          <mxGeometry x="15" y="370" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wfPp5SKs78fvaveSrZaC-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wfPp5SKs78fvaveSrZaC-29" target="wfPp5SKs78fvaveSrZaC-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wfPp5SKs78fvaveSrZaC-28" value="создание витрины" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wfPp5SKs78fvaveSrZaC-27">
+          <mxGeometry x="0.075" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfPp5SKs78fvaveSrZaC-29" value="бухгалтерии" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wfPp5SKs78fvaveSrZaC-32" value="бухгалтерии" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wfPp5SKs78fvaveSrZaC-33" value="бухгалтерии" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wfPp5SKs78fvaveSrZaC-34" value="Витрины Бухглатерии&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;Банка&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="380" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wfPp5SKs78fvaveSrZaC-35" value="Витрины Бухглатерий" style="html=1;dashed=0;whiteSpace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="1">
+          <mxGeometry x="35" y="390" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wfPp5SKs78fvaveSrZaC-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="290" as="sourcePoint" />
+            <mxPoint x="95" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="555" y="290" />
+              <mxPoint x="555" y="310" />
+              <mxPoint x="95" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfPp5SKs78fvaveSrZaC-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wfPp5SKs78fvaveSrZaC-39" target="wfPp5SKs78fvaveSrZaC-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wfPp5SKs78fvaveSrZaC-39" value="Аналитик" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
